@@ -2,242 +2,118 @@
 
 exports[`ListView renders properly 1`] = `
 <div
-  className="list-pf"
+  className="list-group list-view-pf list-view-pf-view"
 >
   <div
-    className="list-pf-item"
+    className="list-group-item"
   >
     <div
-      className="list-pf-container"
-      onClick={[Function]}
+      className="list-view-pf-main-info"
     >
       <div
-        className="list-pf-chevron"
+        className="list-view-pf-left"
       >
         <span
-          className="fa fa-angle-right"
+          className="list-view-of-icon-sm fa fa-space-shuttle"
         />
       </div>
       <div
-        className="list-pf-content"
-      >
-        First Level Item 1
-      </div>
-    </div>
-    <div
-      className="list-pf-expansion collapse"
-    >
-      <div
-        className="list-pf-container"
-        onClick={[Function]}
+        className="list-view-pf-body"
       >
         <div
-          className="list-pf-chevron"
-        >
-          <span
-            className="fa fa-angle-right"
-          />
-        </div>
-        <div
-          className="list-pf-content"
-        >
-          Second Level Item 1
-        </div>
-      </div>
-      <div
-        className="list-pf-expansion collapse"
-      >
-        <div
-          className="list-pf-container"
-          onClick={[Function]}
+          className="list-view-pf-description"
         >
           <div
-            className="list-pf-content"
+            className="list-group-item-heading"
           >
-            Third Level Item 1
+            Item 1
           </div>
-        </div>
-      </div>
-      <div
-        className="list-pf-expansion collapse"
-      >
-        <div
-          className="list-pf-container"
-          onClick={[Function]}
-        >
           <div
-            className="list-pf-content"
+            className="list-group-item-text"
           >
-            Third Level Item 2
+            This is my description for item 1
           </div>
         </div>
-      </div>
-    </div>
-    <div
-      className="list-pf-expansion collapse"
-    >
-      <div
-        className="list-pf-container"
-        onClick={[Function]}
-      >
         <div
-          className="list-pf-chevron"
+          className="list-view-pf-additional-info"
         >
-          <span
-            className="fa fa-angle-right"
-          />
-        </div>
-        <div
-          className="list-pf-content"
-        >
-          Second Level Item 2
-        </div>
-      </div>
-      <div
-        className="list-pf-expansion collapse"
-      >
-        <div
-          className="list-pf-container"
-          onClick={[Function]}
-        >
-          <div
-            className="list-pf-content"
-          >
-            Third Level Item 1
-          </div>
-        </div>
-      </div>
-      <div
-        className="list-pf-expansion collapse"
-      >
-        <div
-          className="list-pf-container"
-          onClick={[Function]}
-        >
-          <div
-            className="list-pf-content"
-          >
-            Third Level Item 2
-          </div>
+          
         </div>
       </div>
     </div>
   </div>
   <div
-    className="list-pf-item"
+    className="list-group-item"
   >
     <div
-      className="list-pf-container"
-      onClick={[Function]}
+      className="list-view-pf-main-info"
     >
       <div
-        className="list-pf-chevron"
+        className="list-view-pf-left"
       >
         <span
-          className="fa fa-angle-right"
+          className="list-view-of-icon-sm fa fa-bomb"
         />
       </div>
       <div
-        className="list-pf-content"
-      >
-        First Level Item 2
-      </div>
-    </div>
-    <div
-      className="list-pf-expansion collapse"
-    >
-      <div
-        className="list-pf-container"
-        onClick={[Function]}
+        className="list-view-pf-body"
       >
         <div
-          className="list-pf-chevron"
-        >
-          <span
-            className="fa fa-angle-right"
-          />
-        </div>
-        <div
-          className="list-pf-content"
-        >
-          Second Level Item 1
-        </div>
-      </div>
-      <div
-        className="list-pf-expansion collapse"
-      >
-        <div
-          className="list-pf-container"
-          onClick={[Function]}
+          className="list-view-pf-description"
         >
           <div
-            className="list-pf-content"
+            className="list-group-item-heading"
           >
-            Third Level Item 1
+            Item 2
+          </div>
+          <div
+            className="list-group-item-text"
+          >
+            This is my description for item 2
           </div>
         </div>
-      </div>
-      <div
-        className="list-pf-expansion collapse"
-      >
         <div
-          className="list-pf-container"
-          onClick={[Function]}
+          className="list-view-pf-additional-info"
         >
-          <div
-            className="list-pf-content"
-          >
-            Third Level Item 2
-          </div>
+          
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="list-group-item"
+  >
     <div
-      className="list-pf-expansion collapse"
+      className="list-view-pf-main-info"
     >
       <div
-        className="list-pf-container"
-        onClick={[Function]}
+        className="list-view-pf-left"
       >
-        <div
-          className="list-pf-chevron"
-        >
-          <span
-            className="fa fa-angle-right"
-          />
-        </div>
-        <div
-          className="list-pf-content"
-        >
-          Second Level Item 2
-        </div>
+        <span
+          className="list-view-of-icon-sm fa fa-github"
+        />
       </div>
       <div
-        className="list-pf-expansion collapse"
+        className="list-view-pf-body"
       >
         <div
-          className="list-pf-container"
-          onClick={[Function]}
+          className="list-view-pf-description"
         >
           <div
-            className="list-pf-content"
+            className="list-group-item-heading"
           >
-            Third Level Item 1
+            Item 3
+          </div>
+          <div
+            className="list-group-item-text"
+          >
+            This is my description for item 3
           </div>
         </div>
-      </div>
-      <div
-        className="list-pf-expansion collapse"
-      >
         <div
-          className="list-pf-container"
-          onClick={[Function]}
+          className="list-view-pf-additional-info"
         >
-          <div
-            className="list-pf-content"
-          >
-            Third Level Item 2
-          </div>
+          
         </div>
       </div>
     </div>
