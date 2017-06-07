@@ -23,8 +23,8 @@ const ListViewItemMainInfo = ({
 
   const renderAdditionalInfo = () =>
     <div className="list-view-pf-additional-info">
-      {additionalInfo.map(item =>
-        <div className="list-view-pf-additional-info-item">
+      {additionalInfo.map((item, i) =>
+        <div key={i} className="list-view-pf-additional-info-item">
           {item}
         </div>
       )}
@@ -58,14 +58,14 @@ ListViewItemMainInfo.propTypes = {
   /** item text node  */
   itemText: PropTypes.node,
   /** additional info node  */
-  additionalInfo: PropTypes.arrayOf(PropTypes.node),
+  additionalInfo: PropTypes.arrayOf(PropTypes.node)
 }
 
 ListViewItemMainInfo.defaultProps = {
   /** default icon class */
   iconClass: null,
   /** default additional info */
-  additionalInfo: [],
+  additionalInfo: []
 }
 
 export default ListViewItemMainInfo

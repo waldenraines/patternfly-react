@@ -5,7 +5,6 @@ import { defaultTemplate } from '../../storybook/decorators/storyTemplates'
 import { mockListItems } from './__mocks__/mockListItems'
 import ListView from './ListView'
 import ListViewItem from './ListViewItem'
-import ListViewExpandableItem from './ListViewExpandableItem'
 
 const stories = storiesOf('ListView', module)
 stories.addDecorator(withKnobs)
@@ -41,7 +40,7 @@ stories.addWithInfo(
     return (
       <ListView>
         {mockListItems.map((item, i) =>
-          <ListViewExpandableItem
+          <ListViewItem
             key={i}
             iconClass={item.iconClass}
             heading={item.name}
